@@ -1,0 +1,250 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+
+}
+.logo{
+    width: 15%;
+    border-radius: 80;
+    margin-right: 25%;
+}
+
+.logo-2{
+    width: 400px;
+}
+
+nav{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 5px;
+}
+
+nav ul li{
+    display:inline-block;
+    list-style: none;
+    margin:5px 20px;
+    
+}
+
+.header{
+    border-radius: px;
+    overflow: hidden;
+    width: 100%;    
+    background-color: white;
+        
+}
+
+nav ul li a{
+    color: rgb(18, 28, 38);
+    text-decoration: none;
+    font-size:smaller;
+    position: relative;
+}
+
+nav ul li a::after{
+    content: '';
+    height: 4px;
+    width: 0;
+    background: rgb(19, 19, 19);
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+    position: absolute;
+}
+
+nav ul li a:hover::after{
+    width: 90%;
+}
+
+.col {
+    padding-bottom: 1%;
+    padding-top: 2.5%;
+    overflow: hidden;
+
+}
+
+.col h1 {
+    padding-left: 14%;
+}
+.col p{
+    padding-left: 14%;
+    padding-top: 5%;
+
+}
+.col .form-group1,
+.col .form-group2{
+    width: 49%;
+}
+.col .form-group1{
+    float: left;
+}
+.col .form-group2{
+    float: right;
+}
+
+
+.form text {
+    display: flex;
+    padding-bottom: 100px
+}
+
+
+
+form input{
+    width: 94%;
+    height: 35px;
+    outline: none;
+    margin: 10px 0;
+    color: black;
+    border: 6px;
+    font-size: 10px; 
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 3%;  
+    background-color: lightgray;
+    border-radius: 4px;
+}
+.co{
+    margin-top:4% ;
+}
+
+
+form{
+    padding-left: 14%;
+    height: 90%;
+    opacity: 0.6;
+}
+
+.tap{
+    margin-top: 2%;
+}
+.tap p{
+    margin-left: 14%;
+}
+.tap form{
+    padding: ;
+}
+.genp{
+    text-align: cent;
+}
+.push{
+    background-color: darkgreen;
+    border-radius: 3px;
+    padding: 1px ;
+    color: white;
+    margin-left:14%;
+    margin-right: 2%;
+    text-align: center;
+}
+.push1{
+    margin-left: 32%;
+}
+.push2{
+    background-color: lightgrey;
+    border-radius: 3px;
+    margin: 4% 30% 0% 42%;
+    font-size: smaller;
+    color: white;
+    text-align: center;
+}
+.check ul {
+    list-style-type: none;
+    padding-left: 1%;
+    margin-top: 14%;
+  }
+  .check li {
+    list-style: none;
+    position: relative;
+    padding-left: 30px; 
+    margin-bottom: 15px; 
+}
+
+.check li::before {
+    content: "\2714";  
+    background-color:  #007BFF;
+    border-radius: 50%; 
+    width: 20px; 
+    height: 20px;
+    display: inline-block; 
+    text-align: center; 
+    line-height: 20px; 
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 2px solid lightblue;
+}
+.check p{
+    margin-top: 80%;
+}
+  .co{
+    display: flex;
+  }
+  .lance p{
+    margin: 1% 0%;
+  }
+  .curr{
+    padding-top:7%;
+  }
+  .num{
+    font-size: xxx-large;
+  }
+  .ann{
+    padding-top: 17%;
+  }
+  .check p{
+    padding-top: 2%;
+  }
+  .swi{
+    margin: 0% 0% ;
+  }
+  .gen {
+    display: flex;
+}
+.general1 {
+    width: 50%;
+    padding: 20;
+    background-color: whitesmoke;
+    margin-top: 5.2%;
+    margin-left: 10%;
+    
+}
+.lance{
+    width: 17%;
+    padding: 20px;
+    background-color: #007BFF;
+    color:lightblue;
+    margin-top: 5.2%;
+}
+.lance p{
+    margin-top: 10.5%;
+}
+.summary h2, .summary p {
+    color: white;
+}
+
+button {
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+hr{
+    opacity: 0.2;
+}
+.la{
+    display: flex;
+    margin-top: 20%;
+}
+.la img{
+    margin-top: 6%;
+}
+.la p{
+    padding-left: 10%;
+}
